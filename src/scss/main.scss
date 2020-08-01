@@ -1,0 +1,54 @@
+@import "reset";
+@import url("https://fonts.googleapis.com/css2?family=Roboto + Slab:wght@100;400;700&display=swap");
+@import "habitat";
+@import "animal";
+
+:root {
+  --rdr-nat-background-color: white;
+  --rdr-nat-primary-color: black;
+  --rdr-nat-card-color: #e2e4e6;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --rdr-nat-background-color: black;
+    --rdr-nat-primary-color: white;
+    --rdr-nat-card-color: #121212;
+  }
+}
+
+body {
+  background-color: var(--rdr-nat-background-color);
+  color: var(--rdr-nat-primary-color);
+  font-family: "Roboto Slab", serif;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  column-gap: 5px;
+  row-gap: 5px;
+}
+
+.card {
+  display: flex;
+  flex: 1 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  max-width: 25vw;
+  max-height: 25vw;
+  border: 1px solid var(--rdr-nat-primary-color);
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px 0 #888;
+  margin: 5px;
+  padding: 10px;
+  text-decoration: none;
+  background-color: var(--rdr-nat-card-color);
+  color: var(--rdr-nat-primary-color);
+  h2 {
+    text-transform: uppercase;
+  }
+}

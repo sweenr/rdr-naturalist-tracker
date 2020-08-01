@@ -1,0 +1,90 @@
+{
+  "habitats": [
+    {
+      "id": "farmland",
+      "name": "Farmland Habitats",
+      "description": "Research notes on the domesticated animals found on ranches and rural settlements",
+      "animals": [
+        {
+          "id": "f-fl-cow",
+          "name": "Florida Cracker Cow"
+        },
+        {
+          "id": "f-angus",
+          "name": "Angux Ox"
+        },
+        {
+          "id": "f-merino",
+          "name": "Merino Sheep"
+        },
+        {
+          "id": "f-alpine",
+          "name": "Alpine Goat"
+        }
+      ]
+    },
+    {
+      "id": "desert",
+      "name": "Desert Habitats",
+      "description": "A study of desert dwelling creatures adapted to survive in extreme conditions.",
+      "animals": [
+        {
+          "id": "d-iguana",
+          "name": "Desert Iguana"
+        },
+        {
+          "id": "d-gila",
+          "name": "Banded Gila Monster"
+        },
+        {
+          "id": "d-armadillo",
+          "name": "Nine-Banded Armadillo"
+        },
+        {
+          "id": "d-bcbuck",
+          "name": "Baja California Pronghorn Buck"
+        },
+        {
+          "id": "d-bcdoe",
+          "name": "Baja California Pronghorn Doe"
+        },
+        {
+          "id": "d-peccary",
+          "name": "Collared Peccary"
+        },
+        {
+          "id": "d-spbuck",
+          "name": "Sonoran Pronghorn Buck"
+        },
+        {
+          "id": "d-spdoe",
+          "name": "Sonoran Pronghorn Doe"
+        },
+        {
+          "id": "d-bram",
+          "name": "Desert Bighorn Ram"
+        },
+        {
+          "id": "d-bsheep",
+          "name": "Desert Bighorn Sheep"
+        },
+        {
+          "id": "d-snram",
+          "name": "Sierra Nevada Bighorn Ram"
+        },
+        {
+          "id": "d-snsheep",
+          "name": "Sierra Nevada Bighorn Sheep"
+        },
+        {
+          "id": "d-btsnake",
+          "name": "Black-tailed Rattlesnake"
+        },
+        {
+          "id": "d-cougar",
+          "name": "Cougar"
+        }
+      ]
+    }
+  ]
+}

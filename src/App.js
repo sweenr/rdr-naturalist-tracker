@@ -1,24 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Data from "./data.json";
+import LocalData from "./localData.json";
+import HabitatsPage from "./pages/habitatsPage";
+import AnimalsPage from "./pages/animalsPage";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import "./scss/main.scss";
 
 function App() {
+  const combinedLocalHabitats = LocalData.habitats.map((habitat) => {
+    const localHab = localStorage.getItem(habitat.id);
+    if (localHab) {
+      return JSON.parse(localHab);
+    }
+    return habitat;
+  });
+  console.log(combinedLocalHabitats);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Route path="/" exact>
+          <HabitatsPage
+            habitats={Data.habitats}
+            localHabitats={combinedLocalHabitats}
+          />
+        </Route>
+        <Route
+          path="/habitat/:habitat"
+          render={({ match }) => (
+            <AnimalsPage
+              habitat={Data.habitats.find(
+                (habitat) => habitat.id === match.params.habitat
+              )}
+              localHabitat={combinedLocalHabitats.find(
+                (habitat) => habitat.id === match.params.habitat
+              )}
+            />
+          )}
+        />
+      </Router>
     </div>
   );
 }

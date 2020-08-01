@@ -1,0 +1,104 @@
+{
+  "habitats": [
+    {
+      "id": "farmland",
+      "animals": [
+        {
+          "id": "f-fl-cow",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "f-angus",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "f-merino",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "f-alpine",
+          "stamped": false,
+          "samples": 0
+        }
+      ]
+    },
+    {
+      "id": "desert",
+      "animals": [
+        {
+          "id": "d-iguana",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "d-gila",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "d-armadillo",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "d-bcbuck",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "d-bcdoe",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "d-peccary",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "d-spbuck",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "d-spdoe",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "d-bram",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "d-bsheep",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "d-snram",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "d-snsheep",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "d-btsnake",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "d-cougar",
+          "stamped": false,
+          "samples": 0
+        }
+      ]
+    }
+  ]
+}
