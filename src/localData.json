@@ -9,7 +9,42 @@
           "samples": 0
         },
         {
+          "id": "f-angusBull",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "f-devonBull",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "f-hereford",
+          "stamped": false,
+          "samples": 0
+        },
+        {
           "id": "f-angus",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "f-devonOx",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "f-oldspot",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "f-berkshire",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "f-bigchina",
           "stamped": false,
           "samples": 0
         },
@@ -95,6 +130,511 @@
         },
         {
           "id": "d-cougar",
+          "stamped": false,
+          "samples": 0
+        }
+      ]
+    },
+    {
+      "id": "wetland",
+      "animals": [
+        {
+          "id": "w-littlegator",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "w-iguana",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "w-turtle",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "w-panther",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "w-florida",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "w-mediumgator",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "w-diamondback",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "w-midland",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "w-timber",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "w-ncopperhead",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "w-scopperhead",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "w-cottonmouth",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "w-northern",
+          "stamped": false,
+          "samples": 0
+        }
+      ]
+    },
+    {
+      "id": "mountain",
+      "animals": [
+        {
+          "id": "m-bullElk",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "m-cowElk",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "m-badger",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "m-grayWolf",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "m-timberWolf",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "m-bighornRam",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "m-bighornSheep",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "m-cotoye",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "m-whitetailBuck",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "m-whitetailDeer",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "m-boar",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "m-buffalo",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "m-pronghornBuck",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "m-pronghornDoe",
+          "stamped": false,
+          "samples": 0
+        }
+      ]
+    },
+    {
+      "id": "forest",
+      "animals": [
+        {
+          "id": "fo-black",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "fo-beaver",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "fo-racoon",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "fo-redFox",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "fo-grayFox",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "fo-silverFox",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "fo-skunk",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "fo-opossum",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "fo-muskrat",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "fo-bullMoose",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "fo-cowMoose",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "fo-grizzly",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "fo-rabbit",
+          "stamped": false,
+          "samples": 0
+        }
+      ]
+    },
+    {
+      "id": "common",
+      "animals": [
+        {
+          "id": "c-bat",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "c-bullfrog",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "c-chipmunk",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "c-crab",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "c-blackRat",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "c-brown Rat",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "c-redSquirrel",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "c-graySquirrel",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "c-blackSquirrel",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "c-westToad",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "c-sonoranToad",
+          "stamped": false,
+          "samples": 0
+        }
+      ]
+    },
+    {
+      "id": "legendaryDark",
+      "animals": [
+        {
+          "id": "ld-one",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "ld-two",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "ld-three",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "ld-four",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "ld-five",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "ld-six",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "ld-seven",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "ld-eight",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "ld-nine",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "ld-ten",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "ld-eleven",
+          "stamped": false,
+          "samples": 0
+        }
+      ]
+    },
+    {
+      "id": "legendaryLight",
+      "animals": [
+        {
+          "id": "ll-one",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "ll-two",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "ll-three",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "ll-four",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "ll-five",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "ll-six",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "ll-seven",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "ll-eight",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "ll-nine",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "ll-ten",
+          "stamped": false,
+          "samples": 0
+        }
+      ]
+    },
+    {
+      "id": "legendaryRed",
+      "animals": [
+        {
+          "id": "lr-one",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "lr-two",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "lr-three",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "lr-four",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "lr-five",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "lr-six",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "lr-seven",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "lr-eight",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "lr-nine",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "lr-ten",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "lr-eleven",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "lr-twelve",
+          "stamped": false,
+          "samples": 0
+        }
+      ]
+    },
+    {
+      "id": "legendaryPatterned",
+      "animals": [
+        {
+          "id": "lp-one",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "lp-two",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "lp-three",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "lp-four",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "lp-five",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "lp-six",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "lp-seven",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "lp-eight",
+          "stamped": false,
+          "samples": 0
+        },
+        {
+          "id": "lp-nine",
           "stamped": false,
           "samples": 0
         }

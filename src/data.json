@@ -10,8 +10,36 @@
           "name": "Florida Cracker Cow"
         },
         {
+          "id": "f-angusBull",
+          "name": "Angus Bull"
+        },
+        {
+          "id": "f-devonBull",
+          "name": "Devon Bull"
+        },
+        {
+          "id": "f-hereford",
+          "name": "Hereford Bull"
+        },
+        {
           "id": "f-angus",
           "name": "Angux Ox"
+        },
+        {
+          "id": "f-devonOx",
+          "name": "Devon Ox"
+        },
+        {
+          "id": "f-oldspot",
+          "name": "Oldspot Pig"
+        },
+        {
+          "id": "f-berkshire",
+          "name": "Berkshire Pig"
+        },
+        {
+          "id": "f-bigchina",
+          "name": "Big China Pig"
         },
         {
           "id": "f-merino",
@@ -83,6 +111,434 @@
         {
           "id": "d-cougar",
           "name": "Cougar"
+        }
+      ]
+    },
+    {
+      "id": "wetland",
+      "name": "Wetland Habitats",
+      "description": "Information on diverse species found in swamps, long grass, and bayous.",
+      "animals": [
+        {
+          "id": "w-littlegator",
+          "name": "Little Alligator"
+        },
+        {
+          "id": "w-iguana",
+          "name": "Iguana"
+        },
+        {
+          "id": "w-turtle",
+          "name": "Alligator Snapping Turtle"
+        },
+        {
+          "id": "w-panther",
+          "name": "Panther"
+        },
+        {
+          "id": "w-florida",
+          "name": "Florida Panther"
+        },
+        {
+          "id": "w-mediumgator",
+          "name": "Medium Alligator"
+        },
+        {
+          "id": "w-diamondback",
+          "name": "Diamonback Rattlesnake"
+        },
+        {
+          "id": "w-midland",
+          "name": "Midland Water Snake"
+        },
+        {
+          "id": "w-timber",
+          "name": "Timber Rattlesnake"
+        },
+        {
+          "id": "w-ncopperhead",
+          "name": "Northern Copperhead"
+        },
+        {
+          "id": "w-scopperhead",
+          "name": "Southern Copperhead"
+        },
+        {
+          "id": "w-cottonmouth",
+          "name": "Cottonmouth Snake"
+        },
+        {
+          "id": "w-northern",
+          "name": "Northern Water Snake"
+        }
+      ]
+    },
+    {
+      "id": "mountain",
+      "name": "Mountain & Grassland Habitats",
+      "description": "Research on animals inhabiting grasslands, hilltops, and rocky, mountainous regions.",
+      "animals": [
+        {
+          "id": "m-bullElk",
+          "name": "Rocky Mountain Bull Elk"
+        },
+        {
+          "id": "m-cowElk",
+          "name": "Rocky Mountain Cow Elk"
+        },
+        {
+          "id": "m-badger",
+          "name": "Badger"
+        },
+        {
+          "id": "m-grayWolf",
+          "name": "Gray Wolf"
+        },
+        {
+          "id": "m-timberWolf",
+          "name": "Timber Wolf"
+        },
+        {
+          "id": "m-bighornRam",
+          "name": "Rocky Mountain Bighorn Ram"
+        },
+        {
+          "id": "m-bighornSheep",
+          "name": "Rocky Mountain Bighorn Sheep"
+        },
+        {
+          "id": "m-cotoye",
+          "name": "California Valley Coyote"
+        },
+        {
+          "id": "m-whitetailBuck",
+          "name": "Whitetail Buck"
+        },
+        {
+          "id": "m-whitetailDeer",
+          "name": "Whitetail Deer"
+        },
+        {
+          "id": "m-boar",
+          "name": "Boar"
+        },
+        {
+          "id": "m-buffalo",
+          "name": "Buffalo"
+        },
+        {
+          "id": "m-pronghornBuck",
+          "name": "American Pronghorn Buck"
+        },
+        {
+          "id": "m-pronghornDoe",
+          "name": "American Pronghorn Doe"
+        }
+      ]
+    },
+    {
+      "id": "forest",
+      "name": "Forest & River Habitats",
+      "description": "A study of animals found in densely forested areas and alongside rivers and streams.",
+      "animals": [
+        {
+          "id": "fo-black",
+          "name": "Black Bear"
+        },
+        {
+          "id": "fo-beaver",
+          "name": "North American Beaver"
+        },
+        {
+          "id": "fo-racoon",
+          "name": "North American Racoon"
+        },
+        {
+          "id": "fo-redFox",
+          "name": "American Red Fox"
+        },
+        {
+          "id": "fo-grayFox",
+          "name": "American Gray Fox"
+        },
+        {
+          "id": "fo-silverFox",
+          "name": "Silver Fox"
+        },
+        {
+          "id": "fo-skunk",
+          "name": "Striped Skunk"
+        },
+        {
+          "id": "fo-opossum",
+          "name": "Virginia Opossum"
+        },
+        {
+          "id": "fo-muskrat",
+          "name": "American Muskrat"
+        },
+        {
+          "id": "fo-bullMoose",
+          "name": "Bull Moose"
+        },
+        {
+          "id": "fo-cowMoose",
+          "name": "Cow Moose"
+        },
+        {
+          "id": "fo-grizzly",
+          "name": "Grizzly Bear"
+        },
+        {
+          "id": "fo-rabbit",
+          "name": "Black-Tailed Jackrabbit"
+        }
+      ]
+    },
+    {
+      "id": "common",
+      "name": "Common Critters",
+      "description": "Research notes on smaller creatures found in the wild and in built-up urban areas.",
+      "animals": [
+        {
+          "id": "c-bat",
+          "name": "Brown Bat"
+        },
+        {
+          "id": "c-bullfrog",
+          "name": "Bullfrog"
+        },
+        {
+          "id": "c-chipmunk",
+          "name": "Western Chipmunk"
+        },
+        {
+          "id": "c-crab",
+          "name": "Crab"
+        },
+        {
+          "id": "c-blackRat",
+          "name": "Black Rat"
+        },
+        {
+          "id": "c-brown Rat",
+          "name": "Brown Rat"
+        },
+        {
+          "id": "c-redSquirrel",
+          "name": "American Red Squirrel"
+        },
+        {
+          "id": "c-graySquirrel",
+          "name": "Western Gray Squirrel"
+        },
+        {
+          "id": "c-blackSquirrel",
+          "name": "Black Squirrel"
+        },
+        {
+          "id": "c-westToad",
+          "name": "Western Toad"
+        },
+        {
+          "id": "c-sonoranToad",
+          "name": "Sonoran Toad"
+        }
+      ]
+    },
+    {
+      "id": "legendaryDark",
+      "name": "Legendary Animals: Dark",
+      "description": "Studies on a collection of unique animals all known for their dark coats and skins.",
+      "animals": [
+        {
+          "id": "ld-one",
+          "name": "Undiscovered Animal"
+        },
+        {
+          "id": "ld-two",
+          "name": "Legendary Beaver"
+        },
+        {
+          "id": "ld-three",
+          "name": "Legendary Bison"
+        },
+        {
+          "id": "ld-four",
+          "name": "Undiscovered Animal"
+        },
+        {
+          "id": "ld-five",
+          "name": "Legendary Cougar"
+        },
+        {
+          "id": "ld-six",
+          "name": "Undiscovered Animal"
+        },
+        {
+          "id": "ld-seven",
+          "name": "Legendary Elk"
+        },
+        {
+          "id": "ld-eight",
+          "name": "Legendary Wolf"
+        },
+        {
+          "id": "ld-nine",
+          "name": "Undiscovered Animal"
+        },
+        {
+          "id": "ld-ten",
+          "name": "Undiscovered Animal"
+        },
+        {
+          "id": "ld-eleven",
+          "name": "Undiscovered Animal"
+        }
+      ]
+    },
+    {
+      "id": "legendaryLight",
+      "name": "Legendary Animals: Light",
+      "description": "Notes gathered on rare animals left with pale coloring due to a pigmentation anomaly.",
+      "animals": [
+        {
+          "id": "ll-one",
+          "name": "Legendary Beaver"
+        },
+        {
+          "id": "ll-two",
+          "name": "Legendary Bison"
+        },
+        {
+          "id": "ll-three",
+          "name": "Undiscovered Animal"
+        },
+        {
+          "id": "ll-four",
+          "name": "Legendary Iguga Cougar"
+        },
+        {
+          "id": "ll-five",
+          "name": "Undiscovered Animal"
+        },
+        {
+          "id": "ll-six",
+          "name": "Legendary Elk"
+        },
+        {
+          "id": "ll-seven",
+          "name": "Legendary Wolf"
+        },
+        {
+          "id": "ll-eight",
+          "name": "Undiscovered Animal"
+        },
+        {
+          "id": "ll-nine",
+          "name": "Undiscovered Animal"
+        },
+        {
+          "id": "ll-ten",
+          "name": "Undiscovered Animal"
+        }
+      ]
+    },
+    {
+      "id": "legendaryRed",
+      "name": "Legendary Animals: Red & Blonde",
+      "description": "Research gathered on animals renowned for their red or blond coloring.",
+      "animals": [
+        {
+          "id": "lr-one",
+          "name": "Undiscovered Animal"
+        },
+        {
+          "id": "lr-two",
+          "name": "Undiscovered Animal"
+        },
+        {
+          "id": "lr-three",
+          "name": "Legendary Bison"
+        },
+        {
+          "id": "lr-four",
+          "name": "Legendary Wakpa Boar"
+        },
+        {
+          "id": "lr-five",
+          "name": "Undiscovered Animal"
+        },
+        {
+          "id": "lr-six",
+          "name": "Legendary Elk"
+        },
+        {
+          "id": "lr-seven",
+          "name": "Legendary Wolf"
+        },
+        {
+          "id": "lr-eight",
+          "name": "Undiscovered Animal"
+        },
+        {
+          "id": "lr-nine",
+          "name": "Undiscovered Animal"
+        },
+        {
+          "id": "lr-ten",
+          "name": "Legendary Beaver"
+        },
+        {
+          "id": "lr-eleven",
+          "name": "Legendary Boar"
+        },
+        {
+          "id": "lr-twelve",
+          "name": "Undiscovered Animal"
+        }
+      ]
+    },
+    {
+      "id": "legendaryPatterned",
+      "name": "Legendary Animals: Patterned",
+      "description": "Studies of rare creatures with uniquely patterned pelts.",
+      "animals": [
+        {
+          "id": "lp-one",
+          "name": "Undiscovered Animal"
+        },
+        {
+          "id": "lp-two",
+          "name": "Legendary Boar"
+        },
+        {
+          "id": "lp-three",
+          "name": "Undiscovered Animal"
+        },
+        {
+          "id": "lp-four",
+          "name": "Legendary Maza Cougar"
+        },
+        {
+          "id": "lp-five",
+          "name": "Legendary Fox"
+        },
+        {
+          "id": "lp-six",
+          "name": "Legendary Fox"
+        },
+        {
+          "id": "lp-seven",
+          "name": "Legendary Fox"
+        },
+        {
+          "id": "lp-eight",
+          "name": "Undiscovered Animal"
+        },
+        {
+          "id": "lp-nine",
+          "name": "Undiscovered Animal"
         }
       ]
     }
