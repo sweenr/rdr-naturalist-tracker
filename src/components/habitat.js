@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 const Habitat = (props) => {
   const image = require(`../images/habitats/${props.id}.jpg`);
   return (
     <a href={`/habitat/${props.id}`} className="habitat card">
-      {/* TODO add image */}
       <img src={image} alt={`${props.title} scenery`} />
       <h2>{props.title}</h2>
       <p>{props.description}</p>

@@ -207,7 +207,7 @@
           "name": "Rocky Mountain Bighorn Sheep"
         },
         {
-          "id": "m-cotoye",
+          "id": "m-coyote",
           "name": "California Valley Coyote"
         },
         {
@@ -220,11 +220,11 @@
         },
         {
           "id": "m-boar",
-          "name": "Boar"
+          "name": "Wild Boar"
         },
         {
           "id": "m-buffalo",
-          "name": "Buffalo"
+          "name": "American Bison"
         },
         {
           "id": "m-pronghornBuck",
@@ -243,7 +243,7 @@
       "animals": [
         {
           "id": "fo-black",
-          "name": "Black Bear"
+          "name": "American Black Bear"
         },
         {
           "id": "fo-beaver",
@@ -279,11 +279,11 @@
         },
         {
           "id": "fo-bullMoose",
-          "name": "Bull Moose"
+          "name": "Western Bull Moose"
         },
         {
           "id": "fo-cowMoose",
-          "name": "Cow Moose"
+          "name": "Western Cow Moose"
         },
         {
           "id": "fo-grizzly",
@@ -321,7 +321,7 @@
           "name": "Black Rat"
         },
         {
-          "id": "c-brown Rat",
+          "id": "c-brownRat",
           "name": "Brown Rat"
         },
         {
@@ -353,7 +353,7 @@
       "animals": [
         {
           "id": "ld-one",
-          "name": "Undiscovered Animal"
+          "name": "Legendary Alligator"
         },
         {
           "id": "ld-two",
@@ -451,7 +451,7 @@
       "animals": [
         {
           "id": "lr-one",
-          "name": "Undiscovered Animal"
+          "name": "Legendary Alligator"
         },
         {
           "id": "lr-two",

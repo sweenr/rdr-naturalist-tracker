@@ -4,14 +4,26 @@ const Animal = (props) => {
   const [stamped, setStamped] = useState(props.stamped || false);
   const [samples, setSamples] = useState(props.samples || 0);
 
+  const { id, title, updateAnimal } = props;
+
   useEffect(() => {
-    props.updateAnimal(props.id, stamped, samples);
+    updateAnimal(id, stamped, samples);
   }, [stamped, samples]);
+
+  const loadImage = (image) => {
+    try {
+      const image = require(`../images/animals/${props.id}.png`);
+      return image;
+    } catch (error) {
+      const undiscovered = require(`../images/animals/undiscovered.png`);
+      return undiscovered;
+    }
+  };
 
   return (
     <div className="animal card">
-      {/* TODO add image */}
-      <h2>{props.title}</h2>
+      <img src={loadImage(props.id)} alt={`${props.title}`} />
+      <h2>{title}</h2>
       <div className="stamped">
         <input
           type="checkbox"

@@ -5,11 +5,9 @@ const AnimalsPage = (props) => {
   const [animalsList, setAnimalsList] = useState(props.localHabitat.animals);
 
   const updateAnimal = (id, stamped, samples) => {
-    console.log("saving animals");
     let newAnimalsList = [...animalsList];
     const index = newAnimalsList.findIndex((animal) => animal.id === id);
     newAnimalsList[index] = { id: id, stamped: stamped, samples: samples };
-    console.log(newAnimalsList);
     setAnimalsList(newAnimalsList);
 
     localStorage.setItem(
@@ -18,9 +16,33 @@ const AnimalsPage = (props) => {
     );
   };
 
-  const animals = props.habitat.animals.map((animal) => {
-    const localAnimal = props.localHabitat.animals.find(
-      (localAnimal) => localAnimal.id === animal.id
+  const resetStamps = () => {
+    let newAnimalsList = animalsList.map((animal) => {
+      return { ...animal, stamped: false };
+    });
+    setAnimalsList(newAnimalsList);
+
+    localStorage.setItem(
+      props.habitat.id,
+      JSON.stringify({ id: props.habitat.id, animals: newAnimalsList })
+    );
+  };
+
+  const resetHabitat = () => {
+    let newAnimalsList = animalsList.map((animal) => {
+      return { ...animal, stamped: false, samples: 0 };
+    });
+    setAnimalsList(newAnimalsList);
+
+    localStorage.setItem(
+      props.habitat.id,
+      JSON.stringify({ id: props.habitat.id, animals: newAnimalsList })
+    );
+  };
+
+  const animals = animalsList.map((localAnimal) => {
+    const animal = props.habitat.animals.find(
+      (animal) => animal.id === localAnimal.id
     );
     return (
       <Animal
@@ -36,6 +58,28 @@ const AnimalsPage = (props) => {
   return (
     <>
       <h1>{props.habitat.name}</h1>
+      <button
+        onClick={() => {
+          if (
+            window.confirm("This will reset the stamped field on all animals")
+          )
+            resetStamps();
+        }}
+      >
+        Turn in collection
+      </button>
+      <button
+        onClick={() => {
+          if (
+            window.confirm(
+              "Are you sure? This will reset all stamps and samples for all animals in this collection."
+            )
+          )
+            resetHabitat();
+        }}
+      >
+        Reset Collection
+      </button>
       <div className="animals-container card-container">{animals}</div>
     </>
   );
