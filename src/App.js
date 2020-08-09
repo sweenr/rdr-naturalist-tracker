@@ -37,6 +37,25 @@ function App() {
             />
           )}
         />
+        <Route path="/rdr-naturalist-tracker/">
+          <HabitatsPage
+            habitats={Data.habitats}
+            localHabitats={combinedLocalHabitats}
+          />
+        </Route>
+        <Route
+          path="/rdr-naturalist-tracker/habitat/:habitat"
+          render={({ match }) => (
+            <AnimalsPage
+              habitat={Data.habitats.find(
+                (habitat) => habitat.id === match.params.habitat
+              )}
+              localHabitat={combinedLocalHabitats.find(
+                (habitat) => habitat.id === match.params.habitat
+              )}
+            />
+          )}
+        />
       </Router>
     </div>
   );
