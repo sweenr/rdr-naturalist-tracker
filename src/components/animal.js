@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Background from "../images/background.png";
 
 const Animal = (props) => {
   const [stamped, setStamped] = useState(props.stamped || false);
@@ -23,7 +24,14 @@ const Animal = (props) => {
 
   return (
     <div className={`animal card ${stamped || samples > 0 ? "collected" : ""}`}>
-      <img src={loadImage(props.id)} alt={`${props.title}`} />
+      <img
+        src={loadImage(props.id)}
+        alt={`${props.title}`}
+        style={{
+          backgroundImage: `url(${Background}`,
+          backgroundSize: "contain",
+        }}
+      />
       <h2>{title}</h2>
       <div className="stamped">
         <input
