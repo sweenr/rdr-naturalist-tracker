@@ -1,2 +1,10 @@
-.habitats-container {
+@media screen and (max-width: 1300px) {
+  .habitat {
+    h2 {
+      font-size: 1.25em;
+    }
+    .description {
+      display: none;
+    }
+  }
 }

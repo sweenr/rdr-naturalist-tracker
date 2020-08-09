@@ -6,8 +6,8 @@ const Habitat = (props) => {
     <a href={`/habitat/${props.id}`} className="habitat card">
       <img src={image} alt={`${props.title} scenery`} />
       <h2>{props.title}</h2>
-      <p>{props.description}</p>
-      <p>{`Stamped: ${props.stamped} of ${props.total}`}</p>
+      <p className="description">{props.description}</p>
+      <p className="stamps">{`Stamped: ${props.stamped} of ${props.total}`}</p>
     </a>
   );
 };

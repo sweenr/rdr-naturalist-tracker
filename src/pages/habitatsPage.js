@@ -25,7 +25,7 @@ const HabitatsPage = (props) => {
   return (
     <>
       <h1>Habitats</h1>
-      <div className="habitats-container card-container">{habitats}</div>
+      <div className="card-container habitats-container">{habitats}</div>
     </>
   );
 };

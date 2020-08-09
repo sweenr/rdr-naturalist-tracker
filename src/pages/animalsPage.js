@@ -57,29 +57,36 @@ const AnimalsPage = (props) => {
   });
   return (
     <>
-      <h1>{props.habitat.name}</h1>
-      <button
-        onClick={() => {
-          if (
-            window.confirm("This will reset the stamped field on all animals")
-          )
-            resetStamps();
-        }}
-      >
-        Turn in collection
-      </button>
-      <button
-        onClick={() => {
-          if (
-            window.confirm(
-              "Are you sure? This will reset all stamps and samples for all animals in this collection."
-            )
-          )
-            resetHabitat();
-        }}
-      >
-        Reset Collection
-      </button>
+      <div className="header">
+        <h1>{props.habitat.name}</h1>
+        <div className="buttons">
+          <button
+            onClick={() => {
+              if (
+                window.confirm(
+                  "This will reset the stamped field on all animals"
+                )
+              )
+                resetStamps();
+            }}
+          >
+            Turn in collection
+          </button>
+          <button
+            onClick={() => {
+              if (
+                window.confirm(
+                  "Are you sure? This will reset all stamps and samples for all animals in this collection."
+                )
+              )
+                resetHabitat();
+            }}
+          >
+            Reset Collection
+          </button>
+        </div>
+      </div>
+
       <div className="animals-container card-container">{animals}</div>
     </>
   );

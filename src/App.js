@@ -16,7 +16,7 @@ function App() {
   });
   console.log(combinedLocalHabitats);
   return (
-    <div className="App">
+    <div className="content">
       <Router>
         <Route path="/" exact>
           <HabitatsPage
