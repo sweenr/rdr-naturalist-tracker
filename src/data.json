@@ -121,7 +121,7 @@
       "animals": [
         {
           "id": "w-littlegator",
-          "name": "Little Alligator"
+          "name": "American Alligator (Small)"
         },
         {
           "id": "w-iguana",
@@ -141,7 +141,7 @@
         },
         {
           "id": "w-mediumgator",
-          "name": "Medium Alligator"
+          "name": "American Alligator"
         },
         {
           "id": "w-diamondback",
@@ -157,7 +157,7 @@
         },
         {
           "id": "w-ncopperhead",
-          "name": "Northern Copperhead"
+          "name": "Northern Copperhead Snake"
         },
         {
           "id": "w-scopperhead",
@@ -306,7 +306,7 @@
         },
         {
           "id": "c-bullfrog",
-          "name": "Bullfrog"
+          "name": "American Bullfrog"
         },
         {
           "id": "c-chipmunk",
@@ -475,7 +475,7 @@
         },
         {
           "id": "lr-seven",
-          "name": "Legendary Wolf"
+          "name": "Legendary Emerald Wolf"
         },
         {
           "id": "lr-eight",
